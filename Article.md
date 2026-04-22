@@ -1,13 +1,13 @@
 ---
-
-Homeostatic Consensus: Why Progress is Node Wellbeing
-"Truth is not agreed upon. It survives."
-The current blockchain paradigm is built on a flaw: it confuses capital with vitality. In traditional Proof of Stake (PoS), influence is a static asset. This leads to systemic calcification, where a network continues to produce blocks but loses its entropy, its independence, and its ability to evolve.
-Homeostatic Consensus replaces static ownership with a volumetric lease on influence. Power is not a status; it is a metabolic flow that must be continuously re-earned through non-correlated performance under stress.
-
+title: "Homeostatic Consensus: Why Progress is Node Wellbeing"
+tagline: "Truth is not agreed upon. It survives."
+description: |
+  The current blockchain paradigm is built on a flaw: it confuses capital with vitality. In traditional Proof of Stake (PoS), influence is a static asset. This leads to systemic calcification, where a network continues to produce blocks but loses its entropy, its independence, and its ability to evolve.
+  Homeostatic Consensus replaces static ownership with a volumetric lease on influence. Power is not a status; it is a metabolic flow that must be continuously re-earned through non-correlated performance under stress.
 ---
 
 Part I: The Mechanism (Technical Specification)
+
 1. The Influence Equation
 We define Effective Power ($EP$) as a dynamic function of capital, contribution, and time.
 $$EP_t = \log(Stake) \times BC_t \times e^{-\lambda \Delta t}$$
