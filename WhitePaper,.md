@@ -1,6 +1,8 @@
-Homeostatic Consensus
-Transitioning Blockchain Networks from Capital Dominance to Metabolic Vitality
-Abstract
+# Homeostatic Consensus
+
+## Transitioning Blockchain Networks from Capital Dominance to Metabolic Vitality
+
+### Abstract
 
 Modern Proof of Stake (PoS) systems conflate capital with influence. While effective at bootstrapping economic security, this model introduces systemic fragility by allowing passive capital to accumulate persistent control. Over time, this leads to infrastructural centralization, reduced entropy, and diminished resilience under stress.
 
@@ -16,7 +18,7 @@ Non-linear penalty functions (anti-mimicry)
 
 The result is a system where security emerges from vitality, not wealth.
 
-1. The Flaw of Static Consensus
+## 1. The Flaw of Static Consensus
 
 Proof of Stake systems assume:
 
@@ -38,7 +40,7 @@ resistance to failure
 
 It becomes a feudal registry, not a decentralized system.
 
-2. Design Principle: Metabolic Authority
+## 2. Design Principle: Metabolic Authority
 
 Homeostatic Consensus replaces ownership with continuous validation of relevance.
 
@@ -50,7 +52,8 @@ penalized through correlation
 
 Truth is not agreed upon—it survives.
 
-3. Minimal Protocol Specification
+## 3. Minimal Protocol Specification
+
 Epoch
 Fixed interval: 12 seconds
 For each validator v at epoch t:
@@ -64,7 +67,9 @@ Step 3 — Effective Power
 EP(v) = log(Stake_v) × BC(v) × e^(−λΔt)
 Step 4 — Block Selection
 P(v) ∝ normalized EP(v)
-4. Metric Definitions
+
+## 4. Metric Definitions
+
 4.1 Liveness (L)
 
 Fraction of successful attestations within epoch.
@@ -89,7 +94,8 @@ signature timing jitter
 
 Computed via Jaccard similarity across peer sets.
 
-5. Parameterization
+## 5. Parameterization
+
 5.1 Metabolic Rate (λ)
 Range: 0.90 – 0.95 per epoch
 Dynamic based on churn
@@ -117,7 +123,9 @@ Effect:
 
 small correlation → tolerated
 threshold crossing → rapid collapse
-6. Why This System Is Hard to Game
+
+## 6. Why This System Is Hard to Game
+
 6.1 Capital Limitation
 
 Logarithmic scaling removes linear dominance.
@@ -143,7 +151,8 @@ high operational cost
 
 Beyond a threshold, real decentralization is cheaper than faking it.
 
-7. Adversarial Model
+## 7. Adversarial Model
+
 7.1 Attack Vectors
 Entropy spoofing (fake diversity)
 Sybil clustering
@@ -160,7 +169,9 @@ System recovers via:
 
 equilibrium scoring
 rapid EP redistribution
-8. Simulation Thought Experiment
+
+## 8. Simulation Thought Experiment
+
 Network: 100 validators
 30% AWS cluster
 10% malicious spoofers
@@ -179,7 +190,9 @@ Outcome
 no halt
 no coordination needed
 automatic recovery
-9. Economic Layer (Overview)
+
+## 9. Economic Layer (Overview)
+
 Rewards
 proportional to EP
 favors active, resilient nodes
@@ -187,7 +200,9 @@ Penalties
 correlation-based slashing
 inactivity decay
 synchronized failure amplification
-10. Systemic Implications
+
+## 10. Systemic Implications
+
 No “Too Big to Fail”
 
 Large validators cannot concentrate power.
@@ -205,7 +220,8 @@ Not:
 TVL
 market cap
 stake size
-11. Conclusion
+
+## 11. Conclusion
 
 A network is not secure because it is large.
 It is secure because it can survive loss.
