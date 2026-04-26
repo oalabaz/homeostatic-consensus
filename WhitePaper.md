@@ -46,9 +46,9 @@ Homeostatic Consensus replaces ownership with continuous validation of relevance
 
 Authority is:
 
-earned through performance
-decayed through inactivity
-penalized through correlation
+earned performance
+decayed inactivity
+penalized correlation
 
 Truth is not agreed upon—it survives.
 
