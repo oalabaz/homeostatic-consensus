@@ -184,7 +184,7 @@ This is a conceptual and technical specification. Not production-ready.
 
 ## License
 
-MIT (or choose appropriate license)
+Business Source License 1.1
 
 ---
 
