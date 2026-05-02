@@ -184,7 +184,11 @@ This is a conceptual and technical specification. Not production-ready.
 
 ## License
 
-Business Source License 1.1
+**Business Source License 1.1**
+
+- **Change Date:** 2030-05-02
+- **Change License:** MIT License
+- **Additional Use Grant:** You may make use of the Licensed Work for internal purposes, provided that you do not use it to provide a commercial service that competes with the Author.
 
 ---
 
